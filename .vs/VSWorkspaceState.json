@@ -1,13 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\PhoneGap",
-    "\\PhoneGap\\linTest",
-    "\\PhoneGap\\linTest\\www",
-    "\\PhoneGap\\linTest\\www\\css",
-    "\\PhoneGap\\linTest\\www\\js",
-    "\\PhoneGap\\linTest\\www\\res"
+    ""
   ],
-  "SelectedNode": "\\PhoneGap\\linTest\\www\\css\\bootstrap.min.css",
   "PreviewInSolutionExplorer": false
 }
