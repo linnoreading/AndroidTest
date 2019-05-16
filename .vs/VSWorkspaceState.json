@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PhoneGap",
+    "\\PhoneGap\\linTest",
+    "\\PhoneGap\\linTest\\www",
+    "\\PhoneGap\\linTest\\www\\css",
+    "\\PhoneGap\\linTest\\www\\pages",
+    "\\PhoneGap\\vuedemo03",
+    "\\PhoneGap\\vuedemo03\\src"
   ],
-  "SelectedNode": "\\PhoneGap",
+  "SelectedNode": "\\PhoneGap\\linTest\\www\\pages\\FileSizeConvert.html",
   "PreviewInSolutionExplorer": false
 }
