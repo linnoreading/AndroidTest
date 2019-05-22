@@ -5,7 +5,6 @@
 
     <h3>{{obj.name}}</h3>
     <br/>
-    <br/>
     <ul v-for="item in list1">
       <li>{{item}}</li>
     </ul>
@@ -69,7 +68,7 @@
               {'title':'综艺3'},
             ]
           },
-        ]
+        ],
       }
     }
   }

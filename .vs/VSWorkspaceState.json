@@ -4,11 +4,11 @@
     "\\PhoneGap",
     "\\PhoneGap\\linTest",
     "\\PhoneGap\\linTest\\www",
-    "\\PhoneGap\\linTest\\www\\css",
+    "\\PhoneGap\\linTest\\www\\js",
     "\\PhoneGap\\linTest\\www\\pages",
     "\\PhoneGap\\vuedemo03",
     "\\PhoneGap\\vuedemo03\\src"
   ],
-  "SelectedNode": "\\PhoneGap\\linTest\\www\\pages\\FileSizeConvert.html",
+  "SelectedNode": "\\PhoneGap\\linTest\\www\\js\\build.js",
   "PreviewInSolutionExplorer": false
 }
