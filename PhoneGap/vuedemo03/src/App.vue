@@ -24,6 +24,10 @@
         </ol>
       </li>
     </ul>
+
+    <br>
+    <input type="button" value="Test" v-on:click="test01()" />
+
   </div>
 </template>
 
@@ -70,6 +74,11 @@
           },
         ],
       }
+    },
+    methods:{
+      test01(){
+        axios.get()
+      },
     }
   }
 </script>
@@ -77,3 +86,6 @@
 <style>
 
 </style>
+
+
+
