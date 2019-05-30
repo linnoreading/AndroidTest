@@ -26,17 +26,23 @@
     </ul>
 
     <br>
-    <input type="button" value="Test" v-on:click="test01()" />
-
+    <input type="button" value="Test" v-on:click="test01(money)" />
+    <h3>
+      <p>fengxu Money:</p>
+      <p>{{money}}</p>
+    </h3>
   </div>
 </template>
 
 <script>
+  //import axios from 'axios'
+
   export default{
     name:"app1",
     data(){
       return {
         msg:"Welcome!",
+        money:0,
         obj:{
           name:"zhangsan"
         },
@@ -76,10 +82,30 @@
       }
     },
     methods:{
-      test01(){
-        axios.get()
+      test02(){
+        this.axios.get("src/main.js")
+          .then(function(response){
+            alert(response.data);
+          })
       },
-    }
+      test01(money){
+        this.axios.get('/api/linnoreading/AndroidTest/master/MyData/fengxumoney.txt',{
+            headers:{
+              'Content-Type': 'application/x-www-form-urlencoded'
+            }
+          })
+          .then(function(response){
+            console.log(response);
+            debugger;
+            this.money=response.data;
+          })
+      }
+    },
+    // mounted() {
+    //     console.log("1111")
+    //     console.log(this.axios)
+    //   },
+
   }
 </script>
 
